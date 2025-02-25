@@ -16,7 +16,7 @@ public class PrintingController {
     }
 
     @GetMapping("/healthz")
-    public String sayHello() {
+    public String healthCheck() {
         return printingService.healthCheck();
     }
 }
