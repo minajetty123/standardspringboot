@@ -82,3 +82,10 @@ Modify `src/main/resources/application.properties` to adjust the application set
 server.port=8080
 spring.application.name=springboot-standard
 ```
+
+### 6. Running openAPI via springdoc
+
+```properties
+shttp://localhost:8080/swagger-ui.html
+http://localhost:8080/v3/api-docs
+```
